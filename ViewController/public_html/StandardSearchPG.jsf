@@ -12,7 +12,7 @@
                 <f:facet name="footer"/>
                 <f:facet name="center">
                     <af:panelGroupLayout layout="vertical" id="pgl1">
-                        <af:panelHeader text="Employees" id="ph1">
+                        <af:panelHeader text="Employees from GIT" id="ph1">
                             <af:query id="qryId1" headerText="Search" disclosed="true"
                                       value="#{bindings.EmployeesViewCriteriaQuery.queryDescriptor}"
                                       model="#{bindings.EmployeesViewCriteriaQuery.queryModel}"
